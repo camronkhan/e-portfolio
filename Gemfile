@@ -20,7 +20,7 @@ gem 'sdoc',                    '0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug',      '3.4.0'
-  gem 'web-console', '2.0.0.beta3'
+  gem 'web-console', '~> 3.0'	# Interactive Ruby session in browser  https://github.com/rails/web-console
   gem 'spring',      '1.1.3'
 end
 
