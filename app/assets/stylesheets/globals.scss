@@ -2,6 +2,10 @@ $white: #FFFFFF;
 $black: #000000;
 $primary-color: #E800E8;
 
+body {
+	min-height: 100vh;
+}
+
 .flex-box {
 	display: flex;
 }
@@ -16,4 +20,8 @@ $primary-color: #E800E8;
 
 .flex-vertical-center {
 	align-items: center;
+}
+
+.page {
+	padding-top: 70px;
 }
