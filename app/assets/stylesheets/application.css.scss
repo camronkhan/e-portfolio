@@ -2,6 +2,10 @@
 @import "bootstrap";
 @import "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css";
 @import "font-awesome";
+@import "mixins";
+@import "globals";
+@import "navbar";
+@import "footer";
 @import "home";
 @import "about";
 @import "portfolio";
@@ -9,18 +13,3 @@
 @import "education";
 @import "experience";
 @import "contact";
-
-/*************
-    COLORS     
-*************/
-$white: #FFFFFF;
-$black: #000000;
-$primary-color: #E800E8;
-
-/*************
-    NAVBAR     
-*************/
-
-.navbar {
-	opacity: 0.8;
-}
