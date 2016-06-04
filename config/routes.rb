@@ -1,13 +1,11 @@
 Rails.application.routes.draw do
 
-    root 'home#index'
+    root 'static_pages#home'
     
-    resources :home
-    resources :about
+    resources :posts
+    resources :static_pages
+
     resources :portfolio
-    resources :blog
-    resources :education
-    resources :experience
     resources :contact
 
   # The priority is based upon order of creation: first created -> highest priority.
