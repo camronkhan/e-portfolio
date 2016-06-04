@@ -6,12 +6,7 @@ Rails.application.routes.draw do
     get 'static_pages/about'
     get 'static_pages/education'
     get 'static_pages/experience'
-
-    resources :posts
     
-
-    resources :portfolio
-    resources :contact
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
