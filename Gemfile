@@ -20,6 +20,7 @@ gem 'turbolinks', 				'~> 2.5', '>= 2.5.3'
 gem 'jbuilder', 				'~> 2.4', '>= 2.4.1'
 gem 'puma', 					'~> 3.4'
 gem 'sdoc', 					'~> 0.4.1', group: :doc
+gem 'simple_form', 				'~> 3.2', '>= 3.2.1'
 
 group :development, :test do
 	gem 'byebug', 				'~> 9.0', '>= 9.0.4'
