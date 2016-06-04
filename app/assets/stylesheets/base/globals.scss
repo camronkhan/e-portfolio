@@ -1,6 +1,10 @@
 $white: #FFFFFF;
 $black: #000000;
-$primary-color: #E800E8;
+$grey: #F7F7F5;
+$purple: #E800E8;
+$primary-foreground: $purple;
+$primary-background: $white;
+$secondary-background: $grey;
 
 body {
 	min-height: 100vh;
@@ -29,7 +33,8 @@ body {
 	margin-bottom: 40px;
 }
 .section {
-
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .section-title {
 	text-align: center;
